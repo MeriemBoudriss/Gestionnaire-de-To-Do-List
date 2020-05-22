@@ -7,6 +7,6 @@ Le programme propose 22 options pour pouvoir manipuler les listes créées par l
  * Afficher la liste  
 et d’autres plus intéressantes comme:
  * Supprimer une tâche avec un délai
- * gestion de plusieurs listes de taches à la fois, par exemple on peut se situer dans une liste précise et au même temps ajouter des entrées dans une autre liste ou afficher son contenu.
+ * gestion de plusieurs listes de taches à la fois, par exemple on peut se situer dans une liste précise et au même temps ajouter des entrées dans une autre liste ou afficher son contenu.  
  __Pour lancer le programme dans la ligne de commande, il faut d'abord rendre le script exécutable avec la commande $chmod u+x todolist.sh
    ensuite, l'exécuter avec la commance $./todolist.sh__
