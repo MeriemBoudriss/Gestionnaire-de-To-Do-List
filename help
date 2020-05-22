@@ -1,0 +1,98 @@
+Todoliste (script shell)                        # La page d'aide de la todolist
+
+NAME
+		todolist.sh - un gestionnaire de To-Do List
+
+DESCRIPTION
+		./todolist.sh - pour exécuter le programme
+		-> choix du nom de la Todolist
+		->options:
+			=>choisir entre 22 options disponibles (ajouter, supprimer,afficher...)
+			
+WARNING 
+		Il faut mettre la page d'aide dans le même repertoire que le script du programme
+		
+		
+OPTIONS
+		Ce programme contient les options suivante:"
+		
+		aj => permet d'ajouter des tâches dans la Todolist, la date d'ajout est aussi sauvegardée.
+				pour ajouter des tâches dansla liste tapez --aj
+
+		sup => permet de supprimer des tâches de la Todolist, les tâches supprimées sont ajoutées automatiquement dans la liste du bien (voir plus loin).
+				 pour supprimer une tâche de la liste tapez --sup
+		
+		aff => permet d'afficher le contenu de la liste courante, le nombre total des tâches est aussi affiché.
+				 pour afficher la liste tapez --aff
+
+		res => permet de supprimer toutes les tâches de la liste courante directement sans passer par la liste du bien, une confirmation est demandée à l'utilisateur avant la suppression.
+				 pour supprimer toutes les tâches dans la liste tapez --res
+
+		rename => permet de rennomer une Todolist, l'utilisateur continue à travailler dans la même liste après avoir changer son nom.
+				 pour rennomer la liste tapez --rename
+	
+		
+		cher => permet de faire référence à une tâche par une partie du texte.
+				  pour utiliser cette option tapez --cher
+
+		mod => permet de modifier le texte d'une tâche dans la liste courante. 
+				 pour modifier une tâche tapez --mod
+
+		pri => permet de donner une certaine priorité à une tâche.
+				 il y a 4 niveau: A, B, C et D
+				 elle permet aussi d'inserer les tâches d'une manière ordonnée selon le niveau d'importance.
+				 pour prioriser une tâche tapez --pri
+
+		auto => permet de supprimer une tâche à la date et l'heure précisées par l'utilisateur.
+				  pour supprimer automatiquement tapez --auto
+
+		fait => permet d'afficher la liste qui fait du bien, la liste du bien sert à mettre les tâches supprimées indépendamment et non pas quand on supprime toute la liste.
+				  pour afficher la liste du bien tapez --fait
+
+		vide => permet de vider la liste qui fait du bien et supprimer toutes ses tâches.
+				  pour vider la liste du bien tapez --vide
+		
+		comment => permet d'ajouter des commentaires à une tâche précise,
+				  les commentaires sont représentés par des "=>(....)"
+				  pour commenter une tâche tapez --comment
+
+		deletecom => permet de supprimer les commentaires, si la tâche possède plusieurs ils sont tous supprimés.
+				  pour décommenter une tâche tapez --deletecom
+
+		addtolist => permet d'ajouter une tâche dans une liste selectionnée par l'utilisateur.
+				  pour ajouter des entrées tapez --addtolist
+		
+		newlist => permet de créer une nouvelle Todolist, celle-ci devient la liste courante.
+				  pour ajouter une new liste tapez --newlist
+		
+		changelist => permet de changer la liste de travail.
+				 pour changerla liste courante tapez --changelist
+
+		catlist => permet d'afficher le contenu d'une liste à partir d'une autre..
+				 pour utiliser cette option tapez --catlist
+	
+		deletelist => permet de supprimer une liste entière,
+				 si la liste est vide on la supprime directment, sinon il faut demander la confirmation.
+				 pour supprimer une Todolist tapez --deletelist
+
+		show => permet d'afficher la liste de toutes les Todolists.
+				 pour cela tapez --show
+
+		crypte => permet de protéger une Todolist avec un mot de passe.
+				 pour cela tapez --crypte 
+				
+		decrypte => permet d'enlever la protection d'une Todolist.
+				 pour décrypter une liste tapez --decrypte
+ 
+		quitter => permet de quitter le programme.
+		
+		
+		help => permet d'afficher la page manuel du programme.
+
+WARNING 
+		Il faut mettre la page d'aide dans le même repertoire que le script du programme
+
+AUTHORS
+		écrit par Meriem BBOUDRISS et Reda LAMHATTAT
+
+Avril 2019							todolist.sh 
